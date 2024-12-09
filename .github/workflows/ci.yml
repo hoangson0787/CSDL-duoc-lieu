@@ -30,4 +30,5 @@ jobs:
       - run: pip install mkdocstrings
       - run: pip install markdown-exec
       - run: pip install mkdocs-awesome-pages-plugin
+      - run: pip install mkdocs-categories-plugin
       - run: mkdocs gh-deploy --force
