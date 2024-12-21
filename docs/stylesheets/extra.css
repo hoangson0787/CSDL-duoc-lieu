@@ -59,14 +59,18 @@ body {
   color: inherit;
 }
 
-figure{
-  display: inline-block;
+/* Định dạng caption chữ nhỏ và dàn đều */
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* optional, use as required */
-figcaption { 
-  max-width: 30%;
-  caption-side: bottom;
+figure figcaption {
+  font-size: 20px; /* Điều chỉnh kích thước chữ tùy ý */
+  width: 300%;
+  text-align: justify; /* Dàn đều */
+  margin-top: 5px; /* Khoảng cách giữa hình và caption */
 }
 
 .carousel {
